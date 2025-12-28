@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# YOLO runs (optional if very large)
+runs/detect/*/weights/*.pt
+
+# Temp files
+*.mp4
+*.avi
+*.mkv
+temp/
+
+# OS
+.DS_Store

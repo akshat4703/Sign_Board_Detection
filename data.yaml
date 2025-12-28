@@ -1,0 +1,56 @@
+# ===============================
+# Dataset paths
+# ===============================
+path: SIGN_BOARD_DETECTION   # root folder (optional but recommended)
+
+train: images/train
+val: images/val
+
+# ===============================
+# Number of classes
+# ===============================
+nc: 30
+
+# ===============================
+# Class names
+# ===============================
+names:
+  # -------- SPEED LIMIT SIGNS --------
+  0: speed_limit_20
+  1: speed_limit_30
+  2: speed_limit_40
+  3: speed_limit_50
+  4: speed_limit_60
+  5: speed_limit_70
+  6: speed_limit_80
+  7: speed_limit_100
+  8: speed_limit_120
+  9: end_speed_limit
+
+  # -------- MANDATORY SIGNS --------
+  10: stop
+  11: give_way
+  12: priority_road
+  13: no_entry
+
+  # -------- PARKING & RESTRICTION --------
+  14: no_parking
+  15: no_stopping
+  16: no_overtaking
+  17: no_overtaking_trucks
+
+  # -------- TURN RESTRICTIONS --------
+  18: no_left_turn
+  19: no_right_turn
+  20: no_u_turn
+  21: turn_left
+  22: turn_right
+  23: straight_only
+
+  # -------- WARNING SIGNS --------
+  24: pedestrian_crossing
+  25: school_zone
+  26: speed_breaker
+  27: slippery_road
+  28: road_work
+  29: traffic_signal
