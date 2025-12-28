@@ -97,4 +97,5 @@ yolov8s.pt – Base YOLOv8 model
 best.pt – Trained model (inside runs/detect)
 
 👨‍💻 Author
+
 Akshat Pal
